@@ -7,7 +7,14 @@
  * Return: On success 1.
  * On error, -1 is returned, and error is set appropriately.
  */
-int _putchar(char c)
+int main(void)
 {	
-return (write(1, &c, 1)); 
+char text[9] = "_putchar";
+int i = 0;
+for (i = 0; i < 8; i++)
+{
+_putchar(text[i]);
+}
+_putchar('\n');
+return (0); 
 }
