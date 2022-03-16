@@ -3,8 +3,8 @@
  * main - Entry point
  *
  * Return: nothing, return void
- */ 
-int main()
+ */
+int main(void)
 {
 char text[9] = "_putchar";
 int i = 0;
