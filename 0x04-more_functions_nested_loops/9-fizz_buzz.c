@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - it is a fizz buzz game
- * 
  *
  * Return: Always 0
  */
