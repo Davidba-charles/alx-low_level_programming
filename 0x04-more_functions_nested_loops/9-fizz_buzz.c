@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - it is a fizz buzz game
@@ -9,6 +8,7 @@
 int main(void)
 {
 int x = 1;
+
 while (x < 101)
 {
 if (x % 3 == 0 && x % 5 == 0)
@@ -27,6 +27,7 @@ else
 {
 printf("%d", x);
 }
+
 if (x != 100)
 {
 printf(" ");
@@ -35,3 +36,4 @@ x++;
 }
 printf("\n");
 return (0);
+}
