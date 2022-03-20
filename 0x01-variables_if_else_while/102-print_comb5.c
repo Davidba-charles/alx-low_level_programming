@@ -6,25 +6,38 @@
  */
 int main(void)
 {
-int i, j;
-for (j = 0; j <=99; j++)
+int i = 48, j = 48, k = 48, l = 49;
+while (i < 58)
 {
-for (i = j; i <= 99; i++)
+while (j < 58)
 {
-if (i != j)
+while (k < 58)
 {
-putchar(j / 10 + 48);
-putchar(j % 10 + 48);
+while (l < 58)
+{
+putchar(i);
+putchar(j);
 putchar(' ');
-putchar(i / 10 + 48);
-putchar(i % 10 + 48);
-}
-if (j * 100 + i != 9899)
+putchar(k);
+putchar(l);
+if (!(i == 57 && j == 56 && k == 57 && l == 57))
 {
 putchar(',');
 putchar(' ');
 }
+l++;
 }
+k++;
+l = 48;
+}
+j++;
+j = i;
+l = j + 1;
+}
+i++;
+j = 48;
+k = i;
+l = j + 1;
 }
 putchar('\n');
 return (0);
