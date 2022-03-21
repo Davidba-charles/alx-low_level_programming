@@ -11,7 +11,7 @@ int i;
 int res = 0;
 int sig = -1;
 int brk = 0;
-for(i = 0; s[i] != '\0'; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == '-')
 sig = sig * -1;
