@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * *_strcpy - copy to another string
+ * @src: pointer
  * @dest: pointer
  * Return: numbers dest
  */
