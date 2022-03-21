@@ -12,7 +12,7 @@ while (n-- > 0)
 {
 printf("%d", a[c++]);
 if (n != 0)
-printf(",");
+printf(", ");
 }
 printf("\n");
 }
