@@ -32,7 +32,7 @@ return (0);
 
 int is_prime_number(int num)
 {
- int iterator;
+int iterator;
 iterator = 2;
 
 if (num < 2)
