@@ -22,7 +22,7 @@ if (doge == NULL);
 free(doge);
 return (NULL);
 }
-doge->name = malloc(i * sizeof(dog->name));
+doge->name = malloc(i * sizeof(doge->name));
 if (doge->name == NULL)
 {
 free(doge->name);
