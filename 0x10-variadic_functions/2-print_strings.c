@@ -7,7 +7,7 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-va_list valist
+va_list valist;
 unsigned int i;
 char *str;
 
