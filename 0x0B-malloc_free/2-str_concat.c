@@ -41,5 +41,5 @@ while (*s1)
 *tmp++ = *s1++;
 while ((*tmp++ = *s2++))
 ;
-return(conc);
+return (conc);
 }
