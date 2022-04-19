@@ -46,6 +46,7 @@ while (*(str + len) != ' ' && *(str + len))
 {
 len += 1;
 }
+
 len += 1;
 col = malloc(sizeof(char) * len);
 if (!col)
