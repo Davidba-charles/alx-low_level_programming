@@ -1,4 +1,5 @@
 #include <stdlib.h>
+
 /**
  * strtow - char
  * @str: pointer to string params
@@ -34,6 +35,7 @@ return (NULL);
 }
 count += 1;
 f = malloc(sizeof(char *) * count);
+
 if (!f)
 {
 return (NULL);
