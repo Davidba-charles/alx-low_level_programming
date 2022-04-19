@@ -4,7 +4,8 @@
  * @separator: string to be printed netween numbers
  * @n: number of integers passed to the function
  * Return: no return
- */void print_numbers(const char *separator, const unsigned int n, ...)
+ */
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list valist;
 unsigned int i;
